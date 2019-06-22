@@ -1,0 +1,92 @@
+.header {
+    background-color: #202124;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    height: 112px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+}
+.brand {
+    align-items: center;
+    display: flex;
+    height: 72px;
+    padding-left: 24px;
+    margin-right: auto;
+}
+.brand__logo {
+    background: url(../images/drawing.svg) 100% 50%/auto 100% no-repeat;
+    display: block;
+    height: 32px;
+    width: 32px;
+    margin-right: 16px;
+}
+.brand__title {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline;
+    font-weight: 400;
+}
+.header__nav {
+    margin-left: auto;
+    margin-right: 24px;
+}
+.header__nav-item {
+    display: table-cell;
+    text-align: center;
+}
+.header__nav-link {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 48px;
+    position: relative;
+    display: inline-block;
+}
+@media screen and (min-width: 521px) {
+    .header {
+        height:72px
+    }
+}
+@media screen and (max-width: 520px) {
+    .header__nav {
+        left:0;
+        position: absolute;
+        right: 0;
+        top: 64px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .header__nav {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .header__nav-list {
+        display: table;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 521px) {
+    .header__nav-link {
+        line-height: 72px;
+        padding: 0 16px;
+    }
+}
+@media screen and (min-width: 521px) {
+    .header__nav-item {
+        display:inline-block;
+    }
+}
+@media screen and (max-width: 520px) {
+    .header__nav-list {
+        display:table;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 921px) {
+    .brand__title {
+        display: none;
+    }
+}
