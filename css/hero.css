@@ -33,3 +33,8 @@ h1 {
     line-height: 1.2;
     margin-bottom: 1rem;
 }
+@media screen and (max-width: 521px) {
+    .section {
+        padding-top: 144px;
+    }
+}
