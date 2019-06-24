@@ -1,0 +1,119 @@
+.section-articles {
+    background: #ffffff;
+    padding-top: 96px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 392px;
+    overflow: hidden;
+    padding: 0 16px;
+    width: 100%;
+}
+@media screen and (min-width: 921px) {
+    .container {
+        max-width: 840px;
+        padding: 0 40px;
+    }
+}
+.container--jumbo {
+    max-width: 1240px;
+}
+.article-controls {
+    display: inline-block;
+}
+.col-list .col-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (min-width: 921px) {
+    .section .col-2 div.module:first-child {
+        flex-basis: 66.666%;
+        max-width: 66.666%;
+    }
+}
+@media screen and (min-width: 921px) {
+    .section .col-2 div.module {
+        flex-basis: 33.333%;
+        max-width: 33.333%;
+    }
+}
+.col-list .col-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    font-size: 32px;
+    color: #202124;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+p {
+    margin: 0 0 16px;
+}
+.col-list .col-1 .multi-up {
+    margin: 0 -20px;
+}
+.col-list div.module {
+    padding: 0 20px;
+}
+
+.tile a {
+    padding: 1.25rem;
+}
+@media screen and (min-width: 921px) {
+    .multi-up--max.multi-up--slim .tile:nth-child(1n) {
+        flex-basis: 33.333%;
+        max-width: 33.333%;
+    }
+}
+.tile {
+    margin: 0 0 3rem 0;
+    padding: 0!important;
+}
+.tile__poster {
+    position: relative;
+    width: 100%;
+}
+figure {
+    margin: 0;
+}
+.tile__image {
+    width: 100%;
+}
+.eyebrow {
+    color: #5f6368;
+    display: block;
+    font-family: "Roboto Mono",monospace;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 24px 0 4px;
+}
+h4 {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    color: #202124;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0 0 8px;
+}
+p {
+    margin: 0 0 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+.tile__link {
+    color: inherit;
+    display: block;
+}
+.multi-up {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
