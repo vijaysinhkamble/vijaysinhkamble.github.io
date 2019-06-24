@@ -17,3 +17,7 @@ ul {
 header, nav, section, div {
     display: block;
 }
+* {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
